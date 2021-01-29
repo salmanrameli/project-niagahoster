@@ -80,9 +80,9 @@
                 </div>
             </div>
         </nav>
-        <div class="container" id="hero-image">
+        <div class="container py-5" id="hero-image">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6">
                     <h1 class="hero-title">PHP Hosting</h1>
                     <p class="hero-subtitle my-5">Cepat, handal, penuh dengan modul PHP yang Anda butuhkan</p>
                     <p>
@@ -102,27 +102,27 @@
                         <span class="ml-2">Fitur enkripsi IonCube dan Zend Guard Loaders</span>
                     </p>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6 mt-3">
                     <img src="{{ asset('/svg/illustration-banner-PHP-hosting-01.svg') }}" alt="illustration-banner-php-hosting-01">
                 </div>
             </div>
         </div>
         <div class="line"></div>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-3">
-                    <img src="{{ asset('/svg/zendguard.svg') }}" alt="zendguard">
-                </div>
-                <div class="col-3">
-                    <img src="{{ asset('/svg/composer.svg') }}" alt="composer">
-                </div>
-                <div class="col-3">
-                    <img src="{{ asset('/svg/ioncube.svg') }}" alt="ioncube">
-                </div>
-            </div>
+{{--            <div class="row justify-content-center">--}}
+{{--                <div class="col-3">--}}
+{{--                    <img src="{{ asset('/svg/zendguard.svg') }}" alt="zendguard">--}}
+{{--                </div>--}}
+{{--                <div class="col-3">--}}
+{{--                    <img src="{{ asset('/svg/composer.svg') }}" alt="composer">--}}
+{{--                </div>--}}
+{{--                <div class="col-3">--}}
+{{--                    <img src="{{ asset('/svg/ioncube.svg') }}" alt="ioncube">--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
         <div class="container">
-            <div class="row text-center mb-5">
+            <div class="row text-center my-5">
                 <div class="col-12 px-0 mb-5">
                     <p class="hero-title-medium mb-0">Paket Hosting Singapura yang Tepat</p>
                     <p class="hero-subtitle-small">Diskon 40% + Domain dan SSL Gratis untuk Anda</p>
@@ -326,7 +326,7 @@
                 <div class="col-12">
                     <p class="hero-subtitle text-center">Mendukung Penuh Framework Laravel</p>
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-lg-7">
                     <p class="hero-subtitle-small mb-5">Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</p>
                     <p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#00B44F" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"/></svg>
@@ -345,7 +345,7 @@
                     </p>
                     <button class="btn btn-primary btn-pill mt-2">Pilih Hoting Anda</button>
                 </div>
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-lg-5 mt-5 mt-lg-0">
                     <img src="{{ asset('/svg/banner-laravel.svg') }}" alt="banner-laravel" class="banner-laravel">
                 </div>
             </div>
@@ -437,16 +437,16 @@
                 </div>
             </div>
             <div class="row my-5">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6">
                     <p class="hero-subtitle">Linux Hosting yang Stabil dengan Teknologi LVE</p>
                     <p>SuperMicro <b>Intel Xeon 24-Cores</b> server dengan RAM <b>128 GB</b> dan teknologi <b>LVE CloudLinux</b> untuk stabilitas server Anda. Dilengkapi dengan <b>SSD</b> untuk
                     kecepatan <b>MySQL</b> dan caching, Apache load balancer berbasis LiteSpeed Technologies, <b>CageFS</b> security, <b>Raid-10</b> protection dan auto backup untuk keamanan website PHP Anda.
                     </p>
                     <button class="btn btn-primary btn-pill mt-3 mb-5">Pilih Hoting Anda</button>
                 </div>
-{{--                <div class="col-12 col-md-6">--}}
-{{--                    <img src="{{ asset('/support.png') }}" alt="support">--}}
-{{--                </div>--}}
+                <div class="col-12 col-lg-6">
+                    <img src="{{ asset('/support.png') }}" alt="support" class="float-right">
+                </div>
             </div>
         </div>
     </body>
