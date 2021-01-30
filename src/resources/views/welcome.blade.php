@@ -134,8 +134,8 @@
                 <div class="col-12 col-md-3 px-md-0">
                     <p class="hero-title-medium f-24 border pb-1 mb-0">Bayi</p>
                     <div class="border border-top-0 p-3">
-                        <p><del>Rp 19.900</del></p>
-                        <p class="hero-subtitle-small mb-0 f-20">Rp <span class="hero-title hero-number">14</span> .900/ bln</p>
+                        <p><del>Rp {{ $harga_1->harga_asli }}</del></p>
+                        <p class="hero-subtitle-small mb-0 f-20">Rp <span class="hero-title hero-number">{{ $promo_1[0] }}</span> .{{ $promo_1[1] }}/ bln</p>
                     </div>
                     <div class="border border-top-0 p-3">
                         <p class="mb-0">938 Pengguna Terdaftar</p>
@@ -154,8 +154,8 @@
                 <div class="col-12 col-md-3 px-md-0 pt-4 pt-md-0">
                     <p class="hero-title-medium f-24 text-center border pb-1 mb-0">Pelajar</p>
                     <div class="border border-top-0 p-3">
-                        <p><del>Rp 46.900</del></p>
-                        <p class="hero-subtitle-small mb-0 f-20">Rp <span class="hero-title hero-number">23</span> .450/ bln</p>
+                        <p><del>Rp {{ $harga_2->harga_asli }}</del></p>
+                        <p class="hero-subtitle-small mb-0 f-20">Rp <span class="hero-title hero-number">{{ $promo_2[0] }}</span> .{{ $promo_2[1] }}/ bln</p>
                     </div>
                     <div class="border border-top-0 p-3">
                         <p class="mb-0">4.168 Pengguna Terdaftar</p>
@@ -176,8 +176,8 @@
                 <div class="col-12 col-md-3 px-md-0 pt-4 pt-md-0">
                     <p class="hero-title-medium f-24 text-center border-primary bg-primary text-white pb-1 mb-0">Personal</p>
                     <div class="border-primary border-top-0 border-bottom-0 bg-primary text-white p-3">
-                        <p><del>Rp 58.900</del></p>
-                        <p class="hero-subtitle-small mb-0 f-20 text-white">Rp <span class="hero-title hero-number">38</span> .900/ bln</p>
+                        <p><del>Rp {{ $harga_3->harga_asli }}</del></p>
+                        <p class="hero-subtitle-small mb-0 f-20 text-white">Rp <span class="hero-title hero-number">{{ $promo_3[0] }}</span> .{{ $promo_3[1] }}/ bln</p>
                     </div>
                     <div class="border-primary bg-primary-darker border-top-0 text-white p-3">
                         <p class="mb-0">10.017 Pengguna Terdaftar</p>
@@ -200,8 +200,8 @@
                 <div class="col-12 col-md-3 px-md-0 pt-4 pt-md-0">
                     <p class="hero-title-medium f-24 text-center border pb-1 mb-0">Bisnis</p>
                     <div class="border border-top-0 p-3">
-                        <p><del>Rp 109.900</del></p>
-                        <p class="hero-subtitle-small mb-0 f-20">Rp <span class="hero-title hero-number">65</span> .900/ bln</p>
+                        <p><del>Rp {{ $harga_4->harga_asli }}</del></p>
+                        <p class="hero-subtitle-small mb-0 f-20">Rp <span class="hero-title hero-number">{{ $promo_4[0] }}</span> .{{ $promo_4[1] }}/ bln</p>
                     </div>
                     <div class="border border-top-0 p-3">
                         <p class="mb-0">3.552 Pengguna Terdaftar</p>
