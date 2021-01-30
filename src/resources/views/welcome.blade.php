@@ -17,7 +17,12 @@
             <div class="container">
                 <div class="row w-100">
                     <div class="col">
-                        <small class="mr-auto">Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]</small>
+                        <div class="d-inline-block">
+                            <p>
+                                <img src="{{ asset('sc-bookmark.png') }}" alt="bookmark" height="30px" class="d-inline-block" style="margin-top: -12px;">
+                                <span class="small">Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]</span>
+                            </p>
+                        </div>
                         <span class="d-block d-md-none"><br></span>
                         <div class="d-inline float-md-right">
                             <small>

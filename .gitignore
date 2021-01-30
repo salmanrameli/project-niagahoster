@@ -1,4 +1,4 @@
-./mysql
+/mysql
 /.idea/.gitignore
 /mysql/performance_schema/accounts.frm
 /mysql/auto.cnf
