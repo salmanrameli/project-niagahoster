@@ -13,18 +13,19 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="navbar px-0 border-bottom">
+        <nav class="navbar border-bottom">
             <div class="container">
                 <div class="row w-100">
                     <div class="col">
                         <small class="mr-auto">Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]</small>
+                        <span class="d-block d-md-none"><br></span>
                         <div class="d-inline float-md-right">
                             <small>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
                                 <span class="mx-2">0274-5305505</span>
                             </small>
                             <small>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill-rule="evenodd" clip-rule="evenodd"><path d="M20 9.999v-2h4v12.001h-3v4l-5.333-4h-7.667v-4h12v-6.001zm-2 4.001h-9.667l-5.333 4v-4h-3v-14.001h18v14.001z"/></svg>
+                                <img src="{{ asset('chat.png') }}" alt="live-chat" height="15px">
                                 <span class="mx-2">Live Chat</span>
                             </small>
                             <small>
@@ -36,7 +37,7 @@
                 </div>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-lg navbar-light px-0 border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom">
             <div class="container my-0 my-md-2">
                 <a class="navbar-brand" href="#">
                     <img src="{{ asset('logo.jpg') }}" height="45" alt="logo">
@@ -103,7 +104,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-lg-6 mt-3">
-                    <img src="{{ asset('/svg/illustration-banner-PHP-hosting-01.svg') }}" alt="illustration-banner-php-hosting-01">
+                    <img src="{{ asset('/svg/illustration-banner-PHP-hosting-01.svg') }}" alt="illustration-banner-php-hosting-01" class="hero-image">
                 </div>
             </div>
         </div>
@@ -354,7 +355,7 @@
             </div>
         </div>
         <div class="line"></div>
-        <div class="container">
+        <div class="container" style="margin-bottom: -50px;">
             <div class="row">
                 <div class="col-12 text-center">
                     <p class="hero-subtitle my-5">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda.</p>
@@ -448,12 +449,173 @@
                     <button class="btn btn-primary btn-pill mt-3 mb-5">Pilih Hoting Anda</button>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="{{ asset('/support.png') }}" alt="support" class="w-100">
+                    <img src="{{ asset('/support.png') }}" alt="support" class="w-100 mt-md-5">
+                </div>
+            </div>
+        </div>
+        <div style="background: #F7F7F7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="py-4 mb-0">
+                            Bagikan jika Anda menyukai halaman ini.
+                            <span class="d-block d-md-none"><br></span>
+                            <span class="float-md-right">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#1D5898" d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                                <span class="border px-3 mr-2"><span class="small">80k</span></span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#00ADEE" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/></svg>
+                                <span class="border px-3"><span class="small">450</span></span>
+                                <img src="{{ asset('google-plus.png') }}" alt="google-plus" height="28px">
+                                <span class="border px-3"><span class="small">1900</span></span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background: #00A1EF">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-9">
+                        <p class="hero-title-medium text-bantuan text-center text-lg-left text-white py-3 py-lg-5">
+                            <b>Perlu</b> BANTUAN?
+                            <b>Hubungi Kami :</b>
+                            <span class="d-block d-md-none"><span style="white-space: pre-line"></span></span>
+                            0274-5305505</p>
+                    </div>
+                    <div class="col-12 col-lg-3 align-self-center">
+                        <button class="btn btn-lg btn-outline-light btn-bantuan mb-3 px-5 rounded-borders">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path fill="white" d="M20 9.999v-2h4v12.001h-3v4l-5.333-4h-7.667v-4h12v-6.001zm-2 4.001h-9.667l-5.333 4v-4h-3v-14.001h18v14.001z"/></svg>
+                            Live Chat
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </body>
     <footer>
-
+        <div style="background: #303030">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mb-5">
+                        <p class="footer-title">hubungi kami</p>
+                        <ul class="no-bullets text-gray">
+                            <li>0274-5305505</li>
+                            <li>Senin - Minggu</li>
+                            <li>24 Jam Nonstop</li>
+                            <li></li>
+                            <li>Jl. Selokan Mataram Monjali</li>
+                            <li>Karangjati MT I/304</li>
+                            <li>Sinduadi, Mlati, Sleman</li>
+                            <li>Yogyakarta 55284</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-5">
+                        <p class="footer-title">layanan</p>
+                        <ul class="no-bullets text-gray">
+                            <li>Domain</li>
+                            <li>Shared Hosting</li>
+                            <li>Cloud VPS Hosting</li>
+                            <li>Managed VPS Hosting</li>
+                            <li>Web Builder</li>
+                            <li>Keamanan SSL / HTTPS</li>
+                            <li>Jasa Pembuatan Website</li>
+                            <li>Program Afiliasi</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-5">
+                        <p class="footer-title">service hosting</p>
+                        <ul class="no-bullets text-gray">
+                            <li>Hosting Murah</li>
+                            <li>Hosting Indonesia</li>
+                            <li>Hosting Singapura SG</li>
+                            <li>Hosting PHP</li>
+                            <li>Hosting Wordpress</li>
+                            <li>Hosting Laravel</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-5">
+                        <p class="footer-title">tutorial</p>
+                        <ul class="no-bullets text-gray">
+                            <li>Knowledgebase</li>
+                            <li>Blog</li>
+                            <li>Cara Pembayaran</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-0 mt-md-5">
+                    <div class="col-12 col-md-6 col-lg-3 mb-5">
+                        <p class="footer-title">tentang kami</p>
+                        <ul class="no-bullets text-gray">
+                            <li>Tim Niagahoster</li>
+                            <li>Karir</li>
+                            <li>Events</li>
+                            <li>Penawaran & Promo Spesial</li>
+                            <li>Kontak Kami</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-5">
+                        <p class="footer-title">kenapa pilih niagahoster?</p>
+                        <ul class="no-bullets text-gray">
+                            <li>Support Terbaik</li>
+                            <li>Garansi Harga Termurah</li>
+                            <li>Domain Gratis Selamanya</li>
+                            <li>Datacenter Hosting Terbaik</li>
+                            <li>Review Pelanggan</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-5">
+                        <p class="footer-title">newsletter</p>
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control rounded-pill input-newsletter" placeholder="Email"/>
+                            <span class="input-group-append">
+                                  <button class="btn btn-newsletter py-1" style="border-radius: 25px">Berlangganan</button>
+                              </span>
+                        </div>
+                        <small class="text-darkgray">Dapatkan promo dan konten menarik dari penyedia hosting terbaik Anda.</small>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-5">
+                        <div class="row h-100">
+                            <div class="col-4">
+                                <div class="h-100 m-auto d-flex align-items-center pb-md-2 pb-md-4 pl-3 pl-md-0">
+                                    <img src="{{ asset('facebook-bw.png') }}" alt="facebook">
+{{--                                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"><path fill="white" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>--}}
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="h-100 m-auto d-flex align-items-center pb-md-2 pb-md-4 pl-3 pl-md-0">
+                                    <img src="{{ asset('twitter-bw.png') }}" alt="twitter">
+{{--                                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"><path fill="white" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg>--}}
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="h-100 m-auto d-flex align-items-center pb-md-2 pb-md-4 pl-3 pl-md-0">
+                                    <img src="{{ asset('google-plus-bw.png') }}" alt="google-plus">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p class="footer-title">pembayaran</p>
+                        <img src="{{ asset('sc-bank.png') }}" alt="banks" style="max-width: 100%">
+                        <br><br>
+                        <small class="text-darkgray">Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif!</small>
+                    </div>
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                    <div class="col-12 text-white">
+                        <p class="copyright-text">
+                            Copyright ©2016 Niagahoster | Hosting poweered by PHP7, CloudLinux, CloudFlare, Bit Ninja and DC Biznet Technovillage Jakarta
+                            <span class="float-lg-right">
+                                <span class="d-block d-lg-none"><br></span>
+                                Syarat dan Ketentuan | Kebijakan Privasi
+                            </span>
+                        </p>
+                        <p class="copyright-text">Cloud VPC Murah powered by Webuzo Softaculous, Intel SSD and cloud computing technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </html>

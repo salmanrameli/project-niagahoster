@@ -11,6 +11,10 @@
     src: url("/fonts/montserrat/Montserrat-Light.otf");
 }
 @font-face {
+    font-family: "Roboto Medium";
+    src: url("/fonts/roboto/Roboto-Medium.ttf");
+}
+@font-face {
     font-family: "Roboto Regular";
     src: url("/fonts/roboto/Roboto-Regular.ttf");
 }
@@ -26,12 +30,21 @@ b {
     font-family: "Roboto Regular";
     /*color: #414141;*/
 }
+p {
+    font-size: 15px;
+}
 .navbar-nav .nav-link {
     color: #4A4A4A;
+}
+.btn {
+    border-width: 3px;
 }
 #hero-image {
     padding-top: 75px;
     padding-bottom: 75px;
+}
+.hero-image {
+    padding-top: 50px;
 }
 .hero-title {
     font-family: "Montserrat Bold";
@@ -55,7 +68,7 @@ b {
 .hero-subtitle-small {
     font-family: "Montserrat Light";
     font-size: 24px;
-    color: rgba(65, 65, 65, 0.75);
+    color: rgba(65, 65, 65, 1);
 }
 .hero-number {
     vertical-align: top;
@@ -88,6 +101,7 @@ b {
 }
 .btn-primary {
     background-color: #008FEB;
+    border-color: #008FEB;
 }
 .border-primary {
     border: solid 2px #A9C8F3;
@@ -128,30 +142,97 @@ ul.no-bullets {
 .banner-laravel {
     margin-top: 0;
 }
+.text-bantuan {
+    font-size: 24px;
+}
+.btn-bantuan {
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+.footer-title {
+    font-family: "Roboto Medium";
+    color: #7A7A7A;
+    text-transform: uppercase;
+}
+.text-gray {
+    color: #D7D7D7;
+}
+.input-group {
+    position: relative;
+}
+.form-control {
+    padding-right: 47px;
+}
+.input-group-append {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+.input-newsletter {
+    padding: 25px;
+}
+.btn-newsletter {
+    border-radius: 25px;
+    background-color: #008FEB;
+    color: white;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+.text-darkgray {
+    color: #6E6E6E;
+}
+.copyright-text {
+    font-size: 12px;
+}
 @media (min-width: 576px) {
-
+    .hero-image {
+        padding-top: 50px;
+    }
+    .text-bantuan {
+        font-size: 24px;
+    }
 }
 
 @media (min-width: 768px) {
+    .hero-image {
+        padding-top: 50px;
+    }
     .center-align-left {
         display: inline-block;
         text-align: left;
+    }
+    .text-bantuan {
+        font-size: 28px;
     }
 }
 
 @media (min-width: 992px) {
+    .hero-image {
+        padding-top: 150px;
+    }
     .center-align-left {
         display: inline-block;
         text-align: left;
     }
+    .text-bantuan {
+        font-size: 34px;
+    }
 }
 
 @media (min-width: 1200px) {
+    .hero-image {
+        padding-top: 50px;
+    }
     .center-align-left {
         display: inline-block;
         text-align: left;
     }
     .banner-laravel {
         margin-top: 80px;
+    }
+    .text-bantuan {
+        font-size: 34px;
     }
 }
