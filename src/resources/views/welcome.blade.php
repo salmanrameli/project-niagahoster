@@ -21,22 +21,22 @@
                         <div class="d-inline float-md-right">
                             <small>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
-                                0274-5305505
+                                <span class="mx-2">0274-5305505</span>
                             </small>
                             <small>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill-rule="evenodd" clip-rule="evenodd"><path d="M20 9.999v-2h4v12.001h-3v4l-5.333-4h-7.667v-4h12v-6.001zm-2 4.001h-9.667l-5.333 4v-4h-3v-14.001h18v14.001z"/></svg>
-                                Live Chat
+                                <span class="mx-2">Live Chat</span>
                             </small>
                             <small>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 22c-3.123 0-5.914-1.441-7.749-3.69.259-.588.783-.995 1.867-1.246 2.244-.518 4.459-.981 3.393-2.945-3.155-5.82-.899-9.119 2.489-9.119 3.322 0 5.634 3.177 2.489 9.119-1.035 1.952 1.1 2.416 3.393 2.945 1.082.25 1.61.655 1.871 1.241-1.836 2.253-4.628 3.695-7.753 3.695z"/></svg>
-                                Member Area
+                                <span class="mx-2">Member Area</span>
                             </small>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-lg px-0 border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light px-0 border-bottom">
             <div class="container my-0 my-md-2">
                 <a class="navbar-brand" href="#">
                     <img src="{{ asset('logo.jpg') }}" height="45" alt="logo">
@@ -109,17 +109,20 @@
         </div>
         <div class="line"></div>
         <div class="container">
-{{--            <div class="row justify-content-center">--}}
-{{--                <div class="col-3">--}}
-{{--                    <img src="{{ asset('/svg/zendguard.svg') }}" alt="zendguard">--}}
-{{--                </div>--}}
-{{--                <div class="col-3">--}}
-{{--                    <img src="{{ asset('/svg/composer.svg') }}" alt="composer">--}}
-{{--                </div>--}}
-{{--                <div class="col-3">--}}
-{{--                    <img src="{{ asset('/svg/ioncube.svg') }}" alt="ioncube">--}}
-{{--                </div>--}}
-{{--            </div>--}}
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 col-lg-3">
+                    <img src="{{ asset('sc-zendguard.png') }}" alt="zendguard" class="img-hero-secondary">
+                    <p class="text-center img-hero-secondary-text">PHP Zend Guard Loader</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <img src="{{ asset('sc-composer.png') }}" alt="composer" class="img-hero-secondary">
+                    <p class="text-center img-hero-secondary-text">PHP Composer</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <img src="{{ asset('sc-ioncube.png') }}" alt="ioncube" class="img-hero-secondary">
+                    <p class="text-center img-hero-secondary-text">PHP ionCube Loader</p>
+                </div>
+            </div>
         </div>
         <div class="container">
             <div class="row text-center my-5">
@@ -127,7 +130,7 @@
                     <p class="hero-title-medium mb-0">Paket Hosting Singapura yang Tepat</p>
                     <p class="hero-subtitle-small">Diskon 40% + Domain dan SSL Gratis untuk Anda</p>
                 </div>
-                <div class="col-12 col-md-3 px-0">
+                <div class="col-12 col-md-3 px-md-0">
                     <p class="hero-title-medium f-24 border pb-1 mb-0">Bayi</p>
                     <div class="border border-top-0 p-3">
                         <p><del>Rp 19.900</del></p>
@@ -147,7 +150,7 @@
                         <button class="btn btn-outline-dark btn-pill my-3">Pilih Sekarang</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 px-0">
+                <div class="col-12 col-md-3 px-md-0 pt-4 pt-md-0">
                     <p class="hero-title-medium f-24 text-center border pb-1 mb-0">Pelajar</p>
                     <div class="border border-top-0 p-3">
                         <p><del>Rp 46.900</del></p>
@@ -169,7 +172,7 @@
                         <button class="btn btn-outline-dark btn-pill my-3">Pilih Sekarang</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 px-0">
+                <div class="col-12 col-md-3 px-md-0 pt-4 pt-md-0">
                     <p class="hero-title-medium f-24 text-center border-primary bg-primary text-white pb-1 mb-0">Personal</p>
                     <div class="border-primary border-top-0 border-bottom-0 bg-primary text-white p-3">
                         <p><del>Rp 58.900</del></p>
@@ -193,7 +196,7 @@
                         <button class="btn btn-primary btn-pill my-3">Pilih Sekarang</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 px-0">
+                <div class="col-12 col-md-3 px-md-0 pt-4 pt-md-0">
                     <p class="hero-title-medium f-24 text-center border pb-1 mb-0">Bisnis</p>
                     <div class="border border-top-0 p-3">
                         <p><del>Rp 109.900</del></p>
@@ -282,7 +285,7 @@
         </div>
         <div class="separator"></div>
         <div class="container">
-            <div class="row text-center pb-5">
+            <div class="row text-center pb-md-5">
                 <div class="col-12">
                     <p class="hero-subtitle text-center my-5">Semua Paket Hosting Sudah Termasuk</p>
                 </div>
@@ -302,7 +305,7 @@
                     <p class="text">Kelola website dengan panel canggih yang familiar di hati Anda.</p>
                 </div>
             </div>
-            <div class="row text-center py-5">
+            <div class="row text-center pt-md-5 pb-5">
                 <div class="col-md-4">
                     <img src="{{ asset('/svg/shield.svg')  }}" alt="shield" class="img-fitur-hosting">
                     <p class="hero-title-small">Garansi Uptime 99.9%</p>
@@ -356,7 +359,7 @@
                 <div class="col-12 text-center">
                     <p class="hero-subtitle my-5">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda.</p>
                 </div>
-                <div class="col-12 col-md-3 text-center">
+                <div class="col-6 col-md-3 text-center">
                     <ul class="no-bullets center-align-left">
                         <li>IcePHP</li>
                         <li>apc</li>
@@ -375,7 +378,7 @@
                         <li>dba</li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-3 text-center">
+                <div class="col-6 col-md-3 text-center">
                     <ul class="no-bullets center-align-left">
                         <li>http</li>
                         <li>huffman</li>
@@ -394,7 +397,7 @@
                         <li>ldap</li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-3 text-center">
+                <div class="col-6 col-md-3 text-center">
                     <ul class="no-bullets center-align-left">
                         <li>nd_pdo_mysql</li>
                         <li>oauth</li>
@@ -413,7 +416,7 @@
                         <li>phalcon</li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-3 text-center">
+                <div class="col-6 col-md-3 text-center">
                     <ul class="no-bullets center-align-left">
                         <li>stats</li>
                         <li>stem</li>
@@ -445,7 +448,7 @@
                     <button class="btn btn-primary btn-pill mt-3 mb-5">Pilih Hoting Anda</button>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="{{ asset('/support.png') }}" alt="support" class="float-right">
+                    <img src="{{ asset('/support.png') }}" alt="support" class="w-100">
                 </div>
             </div>
         </div>
