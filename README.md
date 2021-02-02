@@ -25,3 +25,6 @@ Niagahoster fullstack developer test - step 1.
 13. Set the .env with the following: `DB_HOST=mysql`
 14. Website can be accessed at http://niagahoster.test
     - If you can't open it, add `127.0.0.1  niagahoster.test` in your host file
+
+## Screenshot
+![Landing](https://raw.githubusercontent.com/salmanrameli/project-niagahoster/master/sc-landing.jpg)
