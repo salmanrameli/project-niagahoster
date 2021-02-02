@@ -9,13 +9,13 @@ Niagahoster fullstack developer test - step 1.
 4. `cd` to src directory
 5. Run `cp .env.example .env`
 6. Set the .env with the following:
-    APP_URL=http://niagahoster.test
-    DB_CONNECTION=mysql
-    DB_HOST=0.0.0.0
-    DB_PORT=3306
-    DB_DATABASE=niagahoster
-    DB_USERNAME=user
-    DB_PASSWORD=password
+    - APP_URL=http://niagahoster.test
+    - DB_CONNECTION=mysql
+    - DB_HOST=0.0.0.0
+    - DB_PORT=3306
+    - DB_DATABASE=niagahoster
+    - DB_USERNAME=user
+    - DB_PASSWORD=password
 7. Run `composer install`
 8. Run `php artisan key:generate`
 9. Run `docker-compose build`
